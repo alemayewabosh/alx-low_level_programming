@@ -1,7 +1,8 @@
 #include <unistd.h>
 
 /**
-*
+* main - Entry point
+* 
 *description comment
 */
 int main(void)
