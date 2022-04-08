@@ -1,16 +1,22 @@
 #include <stdio.h>
 /**
-* main - Prints the alphabetic
-*
-* Return: Always (Success)
+* main - random numbers
+* Return: last digit
 */
 int main(void)
 {
-char c;
-
-for (c = 'a'; c <= 'z'; c++)
-	putchar(c);
-
+int num = '0';
+char letter = 'a';
+while (num <= '9')/*print 0-9*/
+{
+putchar(num);
+num++;
+}
+while (letter <= 'f')/*print a to f*/
+{
+putchar(letter);
+letter++;
+}
 putchar('\n');
 return (0);
 }
